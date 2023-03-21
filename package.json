@@ -9,7 +9,7 @@
       "test": "npx jest",
       "lint:fix": "npx eslint *.js --fix",
       "format": "npx prettier ./**/*{.js,.json} --write",
-      "pre-commit": "npx lint-staged",
+      "pre-commit": "npx lint-staged"
     },
     "lint-staged": {
       "*.js": [
@@ -22,7 +22,7 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-      "express": "^4.17.3",
+      "express": "^4.17.3"
      },
     "devDependencies":{
       "@types/node":"16.9.6",
