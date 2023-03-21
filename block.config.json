@@ -1,0 +1,17 @@
+{
+  "name": "fnGh3",
+  "blockId": "aMDeNRtbAd4UNIUO7jR5I",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/Digambaran/fnGh3",
+    "ssh": "git@github.com:Digambaran/fnGh3.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false,
+  "supportedAppblockVersions": [
+    "2.0.0"
+  ]
+}
